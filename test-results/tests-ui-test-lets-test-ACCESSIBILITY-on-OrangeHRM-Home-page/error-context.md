@@ -1,0 +1,73 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Gmail" [ref=e8] [cursor=pointer]:
+            - /url: https://mail.google.com/mail/&ogbl
+          - link "البحث عن صور" [ref=e10] [cursor=pointer]:
+            - /url: https://www.google.com/imghp?hl=ar&ogbl
+            - text: صور
+        - button "تطبيقات Google" [ref=e13] [cursor=pointer]:
+          - img [ref=e14] [cursor=pointer]
+        - link "تسجيل الدخول" [ref=e18] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=ar&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+          - generic [ref=e19] [cursor=pointer]: تسجيل الدخول
+    - img "Google" [ref=e22]
+    - search [ref=e30]:
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - img [ref=e38]
+          - combobox "بحث" [ref=e41]
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - button "أدوات الإدخال" [ref=e45] [cursor=pointer]:
+                - img [ref=e47] [cursor=pointer]
+              - button "البحث الصوتي" [ref=e49] [cursor=pointer]:
+                - img [ref=e50] [cursor=pointer]
+              - button "بحث بالصور" [ref=e52] [cursor=pointer]:
+                - img [ref=e53] [cursor=pointer]
+            - link "وضع AI" [ref=e55] [cursor=pointer]:
+              - generic [ref=e57] [cursor=pointer]:
+                - img [ref=e59] [cursor=pointer]
+                - generic [ref=e66] [cursor=pointer]: وضع AI
+        - generic [ref=e68]:
+          - button "بحث Google‏" [ref=e69] [cursor=pointer]
+          - button "ضربة حظ" [ref=e70] [cursor=pointer]
+    - generic [ref=e73]:
+      - text: "محرّك بحث Google متوفّر باللغة:"
+      - link "English" [ref=e74] [cursor=pointer]:
+        - /url: https://www.google.com/setprefs?sig=0_F3qoK5zfYtzLg5OZe5vGNcl8188%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwipqpjNh9SQAxVDVKQEHQuHKPQQ2ZgBCBY
+    - contentinfo [ref=e76]:
+      - generic [ref=e77]: فلسطين
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - link "لمحة" [ref=e80] [cursor=pointer]:
+            - /url: https://about.google/?utm_source=google-PS&utm_medium=referral&utm_campaign=hp-footer&fg=1
+          - link "الإعلانات" [ref=e81] [cursor=pointer]:
+            - /url: https://www.google.com/intl/ar_ps/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+          - link "الأعمال" [ref=e82] [cursor=pointer]:
+            - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+          - link "آلية عمل \"بحث Google\"" [ref=e83] [cursor=pointer]:
+            - /url: https://google.com/search/howsearchworks/?fg=1
+        - generic [ref=e84]:
+          - link "الخصوصية" [ref=e85] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=ar-PS&fg=1
+          - link "البنود" [ref=e86] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=ar-PS&fg=1
+          - button "الإعدادات" [ref=e90] [cursor=pointer]:
+            - generic [ref=e91] [cursor=pointer]: الإعدادات
+  - generic:
+    - dialog "ما عليك سوى اختيار Chrome، المتصفّح المُقدَّم من Google":
+      - generic [ref=e100]:
+        - generic [ref=e102]: ما عليك سوى اختيار Chrome، المتصفّح المُقدَّم من Google
+        - generic [ref=e103]: ندعوك لتجربة متصفّح سريع وآمن مزوّد بميزة تحديث تلقائي
+        - generic [ref=e104]:
+          - button "لا يهمّني" [ref=e106] [cursor=pointer]:
+            - generic [ref=e109] [cursor=pointer]: لا يهمّني
+          - button "جرِّبه" [ref=e111] [cursor=pointer]:
+            - generic [ref=e114] [cursor=pointer]: جرِّبه
+```
